@@ -1,0 +1,32 @@
+a, .fill {
+    font-family: Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+a {
+    outline: none;
+    border: solid rgb(51, 51, 51) 2px;
+    border-radius: 15px;
+    padding: 4px 15px;
+    text-decoration: unset;
+    color: rgb(51, 51, 51);
+}
+
+a.hover:hover {
+    border-color: green;
+    color: green;
+}
+
+
+.fill {
+    outline: none;
+    border: grey;
+    border-radius: 11px;
+    padding: 5px 15px;
+    background-color: grey;
+    color: white;
+}
+
+.fill.hover:hover {
+    background-color: green;
+}
