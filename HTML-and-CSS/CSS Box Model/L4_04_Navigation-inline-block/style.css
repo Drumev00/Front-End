@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 50px;
+}
+
+.logo-nav {
+    border-bottom: 2px solid black;
+}
+
+nav, nav .navbar, nav .navbar li{
+    display: inline-block;
+}
+
+.navbar li a {
+    color: #88C58D;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 10px;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: middle;
+}

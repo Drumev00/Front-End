@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box-wrapper {
+    width: 250px;
+    height: 250px;
+    border: 4px dotted #72DDB0;
+    margin: auto;
+    box-sizing: inherit;
+}
+
+.box-wrapper p {
+    width: 100%;
+    border: 5px solid #0734CA;
+    padding: 20px;
+    box-sizing: inherit;
+    text-align: center;
+}
