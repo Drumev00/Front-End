@@ -1,0 +1,13 @@
+.side-content {
+    float: right;
+}
+
+
+.disc-none {
+    list-style: disc;
+}
+
+.disc-none li a{
+    text-decoration: none;
+    color: #98BFA5;
+}

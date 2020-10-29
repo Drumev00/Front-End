@@ -1,0 +1,19 @@
+.half-paragraph, .quote {
+    width: 46%;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    float: right;
+    border-left: 5px solid #DEDEDE;
+    padding-left: 15px;
+    color: #B8BDC2;
+    font-style: italic;
+    height: 100px;
+}
+
+.quote cite {
+    position: relative;
+    top: 30px;
+    right: -50px;
+}

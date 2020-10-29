@@ -1,0 +1,63 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+body {
+    margin: 50px auto;
+    background: #EEEEEE;
+    max-width: 75%;
+}
+
+header {
+    margin: 50px auto;
+    border-bottom: 2px solid black;
+    max-width: 75%;
+}
+
+
+.site-title{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+.image-wrapper{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.right {
+    float: right;
+}
+
+.left{
+    float: left;
+    margin: 15px;
+}
+
+.left img {
+    width: 150px;
+    height: 100px;
+}
+
+.half-paragraph, .quote {
+    width: 46%;
+}
+
+.quote {
+    float: right;
+    border-left: 5px solid #DEDEDE;
+    padding-left: 15px;
+    color: #B8BDC2;
+    font-style: italic;
+    height: 100px;
+}
+
+.quote cite {
+    position: relative;
+    top: 30px;
+    right: -50px;
+}

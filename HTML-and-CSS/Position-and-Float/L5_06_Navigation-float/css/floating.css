@@ -1,0 +1,20 @@
+.image-wrapper{
+    border: 2px solid black;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.right {
+    float: right;
+}
+
+.left{
+    float: left;
+    margin: 15px;
+}
+
+.left img {
+    width: 150px;
+    height: 100px;
+}

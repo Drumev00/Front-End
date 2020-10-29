@@ -1,0 +1,15 @@
+.navbar, .navbar ul, .navbar ul li {
+    display: inline-block;
+}
+
+.navbar {
+    float: right;
+    position: relative;
+    top: 40px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0px 12px;
+    color: rgb(0, 102, 0) ;
+}

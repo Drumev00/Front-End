@@ -1,0 +1,40 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+
+.contacts {
+    list-style: none;
+}
+
+.contacts, .contacts li {
+    display: inline-block;
+}
+
+.contacts li a i {
+    color: black;
+}
+
+.contacts li a {
+    background-color: #EEEEEE;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-twitter:hover {
+    color: #00ACED;
+}
+
+.fa-google-plus:hover {
+    color: #DD4B39;
+}
+
+.fa-linkedin:hover {
+    color: #007BB6;
+}
+
+.fa-instagram:hover {
+    color: #397296;
+}

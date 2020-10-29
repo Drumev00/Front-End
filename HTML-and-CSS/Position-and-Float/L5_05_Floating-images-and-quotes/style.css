@@ -1,0 +1,72 @@
+html {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+body {
+    margin: 50px auto;
+    background: rgb(238, 238, 238);
+    max-width: 75%;
+}
+
+header {
+    margin: 50px auto;
+    border-bottom: 2px solid black;
+}
+
+
+.site-title{
+    display: inline-block;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+.image-wrapper{
+    border: 2px solid black;
+    padding: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+.right {
+    float: right;
+}
+
+.right img {
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.left{
+    float: left;
+    margin: 15px;
+}
+
+.left img {
+    width: 150px;
+    height: 100px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.half-paragraph, .quote {
+    width: 46%;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    float: right;
+    border-left: 5px solid #DEDEDE;
+    padding-left: 15px;
+    color: #B8BDC2;
+    font-style: italic;
+    height: 100px;
+}
+
+.quote cite {
+    position: relative;
+    top: 30px;
+    right: -50px;
+}
