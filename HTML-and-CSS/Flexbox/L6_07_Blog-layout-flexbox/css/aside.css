@@ -1,0 +1,14 @@
+.side-content {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+
+.disc-none {
+    list-style: disc;
+}
+
+.disc-none li a{
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}

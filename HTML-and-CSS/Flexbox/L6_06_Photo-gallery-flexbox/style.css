@@ -1,0 +1,33 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body, ul, li{
+    display: flex;
+}
+
+ul {
+    flex-wrap: wrap;
+    max-width: 70vw;
+    justify-content: space-between;
+}
+
+ul li {
+    list-style: none;
+    border: 5px solid black;
+    margin: 20px 0px;
+}
+
+ul li img {
+    padding: 5px;
+}
+
+.gallery {
+    margin: 0px auto;
+}

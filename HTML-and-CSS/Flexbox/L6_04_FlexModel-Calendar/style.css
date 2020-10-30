@@ -1,0 +1,39 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+div, section {
+    display: flex;
+}
+
+.container {
+    border: 1px solid;
+    max-width: 65vw;
+    height: 50vh;
+}
+
+.week {
+    flex-wrap: wrap;
+    flex: 0.7;
+}
+
+.notes {
+    flex-direction: column;
+    flex: 0.3;
+}
+
+span {
+    border: 1px solid black;
+    text-align: center;
+    flex-grow: 0.5;
+}
+
+.week span:nth-child(1), .week span:nth-child(7) {
+    flex: 1 1 100%;
+}
