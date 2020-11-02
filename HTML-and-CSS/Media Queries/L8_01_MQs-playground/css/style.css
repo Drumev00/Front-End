@@ -1,0 +1,23 @@
+body {
+    margin: 0px;
+}
+
+span {
+    font-weight: bold;
+}
+
+.mq-width span::after {
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit necessitatibus temporibus, numquam quod ab itaque ut? Reiciendis quod praesentium possimus quisquam consectetur, natus eos sit dolorem vero atque vitae excepturi.";
+    color: green;
+}
+
+.mq-height span::after {
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit necessitatibus temporibus, numquam quod ab itaque ut? Reiciendis quod praesentium possimus quisquam consectetur, natus eos sit dolorem vero atque vitae excepturi.";
+    color: green;
+}
+
+.mq-ar span::after {
+    content: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit necessitatibus temporibus, numquam quod ab itaque ut? Reiciendis quod praesentium possimus quisquam consectetur, natus eos sit dolorem vero atque vitae excepturi.";
+    color: green;
+}
+

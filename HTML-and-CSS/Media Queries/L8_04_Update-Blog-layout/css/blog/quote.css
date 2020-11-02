@@ -1,0 +1,17 @@
+
+.quote {
+    font-family: Georgia, serif;
+    border-left: 5px solid #DEDEDE;
+    padding-left: 15px;
+    color: #B8BDC2;
+    font-style: italic;
+    width: 20%;
+    margin: 60px 75px;
+    height: 70%;
+}
+
+.quote cite {
+    position: relative;
+    top: 30px;
+    right: -50px;
+}

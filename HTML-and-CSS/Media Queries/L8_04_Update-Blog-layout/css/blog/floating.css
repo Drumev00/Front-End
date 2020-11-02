@@ -1,0 +1,18 @@
+.image-wrapper{
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.right {
+    float: right;
+}
+
+.left{
+    float: left;
+    margin: 15px;
+}
+
+.left img {
+    width: 150px;
+    height: 100px;
+}

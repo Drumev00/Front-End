@@ -1,0 +1,20 @@
+@media all and (max-width: 480px) {
+    .mq-width span::after{
+        content: "Lorem ipsum...";
+        color: green;
+    }
+}
+
+@media all and (max-height: 480px) {
+    .mq-height span::after{
+        content: "Lorem ipsum...";
+        color: green;
+    }
+}
+
+@media all and (min-aspect-ratio: 8/5) {
+    .mq-ar span::after {
+        content: "Lorem ipsum...";
+        color: green;
+    }
+}
