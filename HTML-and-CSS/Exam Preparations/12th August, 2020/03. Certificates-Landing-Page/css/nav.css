@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: white;
+}
+
+.certificates {
+    border-top: 5px solid #44A9F8;
+    padding-top: 11px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0px 8px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #57585A;
+}
+
+.logo-wrapper img {
+    width: 45%;
+    margin: 10px 0px 10px 30px;
+}
+
+.profile {
+    color: white;
+    background-color: #44A9F8;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}

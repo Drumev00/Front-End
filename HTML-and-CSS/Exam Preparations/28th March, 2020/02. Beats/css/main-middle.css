@@ -1,0 +1,48 @@
+.main-middle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-middle-info {
+    flex-basis: 50%;
+}
+.main-middle-info h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.main-middle-info p {
+    width: 51%;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.main-middle-info span {
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+
+.price-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.price-wrapper p {
+    flex-basis: 15%;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+.price-wrapper button {
+    margin-left: 30px;
+    height: 45px;
+    align-self: center;
+    background: #FF0000;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 45px;
+}

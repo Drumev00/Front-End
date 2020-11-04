@@ -1,0 +1,15 @@
+@media all and (max-width: 600px) {
+    .thumbnails {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .thumbnails div {
+        width: fit-content;
+    }
+
+    .icons {
+        display: flex;
+    }
+}

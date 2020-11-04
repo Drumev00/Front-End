@@ -1,0 +1,39 @@
+.header-content {
+    background-image: url("../images/hero-certificates.jpg");
+}
+
+.diplomas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.diplomas-content {
+    flex-basis: 50%;
+    background: #28374A;
+    color: white;
+    border-radius: 8px;
+}
+
+.diplomas-content, .diplomas-images {
+    margin-top: 10%;
+}
+
+.diplomas-content * {
+    margin-left: 15px;
+}
+
+.diplomas-images {
+    display: flex;
+    flex-basis: 30%;
+}
+
+.certificate-img {
+    align-self: flex-end;
+}
+
+.additional-info {
+    color: gray;
+    font-style: italic;
+    margin-right: 48%;
+}

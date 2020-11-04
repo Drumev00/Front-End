@@ -1,0 +1,58 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+header h1 {
+    font-weight: 300;
+    margin: 0px;
+    font-size: 34px;
+}
+
+header i {
+    font-size: 36px;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content-img {
+    flex-grow: 2;
+}
+
+.main-content-info {
+    flex-basis: 46%;
+    flex-grow: 1;
+}
+
+.main-content-pros {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content-info p {
+    color: gray;
+}
+
+.main-content-pros p {
+    margin: 0px;
+}
+
+.together {
+    display: flex;
+    color: gray;
+}
+
+.together img {
+    margin-top: 20px;
+}

@@ -1,0 +1,68 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6F757F;
+}
+
+.main-content h2 {
+    font-weight: 500;
+}
+
+.main-info {
+    background-color: #F4F5F7;
+    width: 89%;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.main-additional-info {
+    align-self: flex-start;
+    margin-left: 5%;
+}
+
+
+.main-ending-content {
+    background-image: url("../images/sign-up-prompt-background.jpg");
+    color: white;
+    padding: 15px 18%;
+    box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.75);
+    margin-bottom: 8%;
+}
+
+.main-ending-content article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-ending-content article p {
+    width: 92%;
+    text-align: center;
+}
+
+div .apply {
+    color: #44A9F8;
+    background: white;
+    border: none;
+    padding: 8px 30px;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+div .carriculum::before {
+    content: "|";
+    position: relative;
+    left: -50px;
+}
+
+div .carriculum {
+    color: white;
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 8px 30px;
+    margin-left: 15px;
+}
+

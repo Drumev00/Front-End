@@ -1,0 +1,42 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid gray;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo-footer {
+    display: flex;
+}
+
+.logo-footer img {
+    width: 23%;
+    margin-right: 15px;
+}
+
+.logo-footer p {
+    color: gray;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.footer-content {
+    margin: 40px 0px;
+}
+
+.footer-nav {
+    display: flex;
+}
+
+.footer-nav li {
+    list-style: none;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: gray;
+    margin: 0px 5px;
+}
