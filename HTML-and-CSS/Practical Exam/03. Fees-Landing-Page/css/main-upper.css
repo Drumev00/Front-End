@@ -1,0 +1,177 @@
+.main-upper {
+    background-color: #54546D;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+body {
+    margin: 0px;
+}
+
+.title {
+    position: relative;
+    right: -50%;
+}
+
+.main-upper h2 {
+    color: white;
+    font-weight: 500;
+}
+
+.main-upper section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-upper section article h2 {
+    font-weight: 700;
+}
+
+.design-basics {
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 30%;
+}
+
+.design-basics button {
+    width: 42%;
+    align-self: center;
+    background: #9A5DC6;
+    border: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.design-basics h2 {
+    margin-bottom: 0px;
+}
+
+.design-basics p {
+    margin-top: 0px;
+}
+
+.design-basics::before {
+    content: url("../images/calculator-icon.svg");
+    position: absolute;
+    left: -32%;
+    top: -22%;
+    z-index: -1;
+    background-color: #54546D;
+}
+
+.box-bottom-left {
+    background: linear-gradient(90deg, rgba(7,158,65,1) 0%, rgba(70,206,122,1) 80%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.box-bottom-left h2,
+.box-bottom-left p {
+    margin: 20px 10px !important;
+    color: white !important;
+}
+
+.fundamentals {
+    background: white;
+    flex-basis: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fundamentals p {
+    font-size: 19px;
+}
+
+.box-bottom-center {
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, rgba(77,109,138,1) 0%, rgba(97,152,204,1) 87%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.box-bottom-center article:nth-child(1) {
+    border-right: 2px solid white;
+    padding-right: 25px;
+}
+
+.box-bottom-center article h1 {
+    margin-bottom: 0;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.box-bottom-center p {
+    margin: 18px;
+    font-size: 17px;
+}
+
+.box-bottom-center h1,
+.box-bottom-center p {
+    color: white !important;
+}
+
+
+.professional-program {
+    flex-basis: 30%;
+    text-align: center;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.professional-program p {
+    font-size: 18px;
+}
+
+.box-bottom-right {
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 8px;
+    padding-bottom: 5px;
+    border-bottom-right-radius: 8px;
+    background: linear-gradient(90deg, rgba(76,57,166,1) 0%, rgba(133,117,219,1) 84%, rgba(136,121,222,1) 86%);
+}
+
+.box-bottom-right article h1 {
+    font-size: 22px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.box-bottom-right article:nth-child(1) {
+    border-right: 1px solid white;
+    padding-right: 32px;
+}
+
+.box-bottom-right article h1,
+.box-bottom-right article p {
+    color: white;
+}
+
+.design-basics,
+.fundamentals,
+.professional-program {
+    border-radius: 8px;
+    position: relative;
+    top: 150px;
+    right: 30px;
+}
+
+.design-basics h2,
+.design-basics p,
+.fundamentals h2,
+.fundamentals p,
+.professional-program h2,
+.professional-program p {
+    color: gray;
+}

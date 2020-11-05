@@ -1,0 +1,14 @@
+.main-middle {
+    text-align: left;
+    width: 70%;
+    margin: 18% 13%;
+}
+
+.main-middle h1 {
+    font-weight: 500;
+}
+
+.main-middle h1,
+.main-middle p {
+    color: gray;
+}

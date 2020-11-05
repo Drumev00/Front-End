@@ -1,0 +1,22 @@
+.main-lower {
+    display: flex;
+    margin-bottom: 8%;
+    justify-content: space-around;
+}
+
+.main-lower-info {
+    width: 59%;
+    color: gray;
+}
+
+.main-lower-info h1 {
+    font-weight: 600;
+}
+
+.main-lower-info p {
+    font-size: 17px;
+}
+
+.postbank {
+    align-self: flex-end;
+}

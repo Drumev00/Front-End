@@ -1,0 +1,47 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+h1, h3 {
+    font-family: Georgia, serif;
+}
+
+header {
+    width: 70%;
+    margin: 0px auto;
+}
+
+main {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10%;
+}
+
+.flex-info {
+    flex-basis: 37%;
+    margin-left: 30%;
+}
+
+.flex-info p span {
+    background-color: #CEFDE9;
+}
+
+.flex-btn {
+    align-self: flex-end;
+}
+
+.flex-btn button {
+    background: #03A87C;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}

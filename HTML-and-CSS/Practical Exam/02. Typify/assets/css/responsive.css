@@ -1,0 +1,44 @@
+@media all and (max-width: 600px) {
+    body {
+        width: 101%;
+    }
+    
+    .feature {
+        width: 100%;
+    }
+
+    .feature p {
+        font-size: 11px;
+    }
+
+    .wrapper > .inner.narrow {
+        width: 100%;
+    }
+
+    .wrapper > .inner {
+        width: 100%;
+    }
+
+    .grid-form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner h2 {
+        width: 89%;
+        font-size: 23px;
+        border-width: 4px 2px;
+    }
+
+    .banner p {
+        font-size: 1.3em;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+
+    header h2 {
+        font-size: 21px;
+    }
+}
